@@ -1,4 +1,6 @@
-body {font-family: "Roboto", sans-serif;}
+body {font-family: "Roboto", sans-serif;
+color: #2e2f42;
+background: #fff;}
 ul {list-style-type: none;}
 a {text-decoration: none;}
 
@@ -22,7 +24,7 @@ a {text-decoration: none;}
         line-height: 1.16667;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
+        
  }
 
 .header-web-list {}
@@ -32,19 +34,21 @@ a {text-decoration: none;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;}
+    }
+.header-web-item:hover {color: #404bbf;}
+#studio:active {}
 
 .Contacts {}
 
 .Contacts-list {}
 
 .Contacts-item {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
+.Contacts-item:hover {color: #404bbf;}
 
 .main-webstudio {}
 
@@ -71,6 +75,7 @@ background-color: #2e2f42;}
     color: #fff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;}
+    .main-page-button:hover {background: #404bbf;}
 
 .benefits {}
 
@@ -86,7 +91,6 @@ background-color: #2e2f42;}
     color: #2e2f42;}
 
 .benefits-text {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -103,8 +107,7 @@ background-color: #2e2f42;}
         line-height: 1.11111;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #2e2f42;
-}
+        }
 
 .team-list {}
 
@@ -118,11 +121,9 @@ background-color: #2e2f42;}
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #2e2f42;
-}
+        }
 
 .team-list-text {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -138,8 +139,7 @@ background-color: #2e2f42;}
         line-height: 1.11111;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #2e2f42;
-}
+        }
 
 .portfolio-list {}
 
