@@ -39,7 +39,7 @@ a {text-decoration: none;}
 .header-web-item:hover {color: #404bbf;}
 #studio:active {color: #404bbf;}
 
-.contacts {}
+.contacts {font-style: normal}
 
 .contacts-list {}
 
@@ -54,7 +54,7 @@ a {text-decoration: none;}
 
 .main-webstudio {}
 
-.main-page {
+.main-page {background-color:#2e2f42
     
 }
 
@@ -110,21 +110,25 @@ background-color: #2e2f42;}
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
         }
 
-.team-list {background-color: #FFFFFF}
+.team-list {}
 
 .team-list-item {
 
 }
 
 .team-list-subtitle {
+        background-color: #FFFFFF;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
-        text-transform: capitalize
+        text-transform: capitalize;
+        color: #2e2f42;
         }
 
 .team-list-text {
@@ -133,11 +137,13 @@ background-color: #2e2f42;}
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        background-color: #FFFFFF
 }
 
 .portfolio {}
 
 .portfolio-title {
+    color: #2e2f42;
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -173,7 +179,7 @@ background-color: #2e2f42;}
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
