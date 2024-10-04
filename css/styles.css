@@ -12,7 +12,7 @@ a {text-decoration: none;}
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -30,25 +30,27 @@ a {text-decoration: none;}
 .header-web-list {}
 
 .header-web-item {
+    color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
 .header-web-item:hover {color: #404bbf;}
-#studio:active {}
+#studio:active {color: #404bbf;}
 
-.Contacts {}
+.contacts {}
 
-.Contacts-list {}
+.contacts-list {}
 
-.Contacts-item {
+.contacts-item {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.Contacts-item:hover {color: #404bbf;}
+.contacts-item:hover {color: #404bbf;}
+.contacts-item:focus {color: #404bbf}
 
 .main-webstudio {}
 
@@ -59,14 +61,16 @@ a {text-decoration: none;}
 .main-page-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 background-color: #2e2f42;}
 
 .main-page-button {
+    cursor: pointer;
     font-weight: 500;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -74,6 +78,7 @@ background-color: #2e2f42;}
     background: #4d5ae5;}
     
 .main-page-button:hover {background: #404bbf;}
+.main-page-button:focus {background-color: #404BBF;}
 
 .benefits {}
 
@@ -102,12 +107,12 @@ background-color: #2e2f42;}
 .team-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         }
 
-.team-list {}
+.team-list {background-color: #FFFFFF}
 
 .team-list-item {
 
@@ -119,6 +124,7 @@ background-color: #2e2f42;}
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize
         }
 
 .team-list-text {
@@ -134,9 +140,10 @@ background-color: #2e2f42;}
 .portfolio-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize
         }
 
 .portfolio-list {}
