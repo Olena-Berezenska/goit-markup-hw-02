@@ -36,8 +36,7 @@ a {text-decoration: none;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
-.header-web-item:hover {color: #404bbf;}
-#studio:active {color: #404bbf;}
+.header-web-item:hover, .header-web-item:focus {color: #404bbf;}
 
 .contacts {font-style: normal}
 
@@ -116,7 +115,7 @@ background-color: #2e2f42;}
 
 .team-list {}
 
-.team-list-box {background-color: #FFFFFF;}
+.team-list-box { background-color: #FFFFFF;}
 
 .team-list-item {
 
