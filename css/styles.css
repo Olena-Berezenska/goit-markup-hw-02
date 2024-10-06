@@ -78,8 +78,7 @@ background-color: #2e2f42;}
     color: #fff;
     background: #4d5ae5;}
     
-.main-page-button:hover {background: #404bbf;}
-.main-page-button:focus {background-color: #404BBF;}
+.main-page-button:hover, .main-page-button:focus {background-color: #404BBF;}
 
 .benefits {}
 
@@ -117,12 +116,13 @@ background-color: #2e2f42;}
 
 .team-list {}
 
+.team-list-box {background-color: #FFFFFF;}
+
 .team-list-item {
 
 }
 
 .team-list-subtitle {
-        background-color: #FFFFFF;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -138,7 +138,6 @@ background-color: #2e2f42;}
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
-        background-color: #FFFFFF;
 }
 
 .portfolio {}
